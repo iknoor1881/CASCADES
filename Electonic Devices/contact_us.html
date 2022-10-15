@@ -1,0 +1,175 @@
+<!doctype html>
+<head>
+<title>
+Contact Us 
+</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.contact{
+position:relative;
+min-height:100vh;
+padding:50px 100px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:url(contactus-background.png);
+background-size:cover;
+}
+.contact .content{
+max-width:800px;
+text-align:center;
+color:#fff;
+}
+.contact .content h2{
+font-size:36px;
+font-weight:500;
+color:#fff;
+}
+.contact .content p{
+font-size:36px;
+font-weight:300;
+color:#fff;
+}
+.container{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:30px;
+color:#fff;
+}
+.container .contact-info{
+width:50%;
+display:flex;
+flex-direction:column;
+color:#fff;
+}
+.container .contact-info .box{
+position:relative;
+padding:20px 0;
+display:flex;
+} 
+.container .contact-info .box .icon{
+min-width:60px;
+height:60px;
+display:flex;
+justify:content:center;
+align-items:center;
+border-radius:50%;
+font-size:22px;
+}
+.container .contact-info .box .text{
+display:flex;
+margin-left:20px;
+font-size:16px;
+flex-direction:column;
+font-weight:300px;
+color:#fff;
+}
+.container .contact-info .box .text h3{
+font-weight:500;
+color:#fff;
+}
+.contactform{
+width:40%;
+padding:40px;
+}
+.contactform h2{
+font-size:30px;
+font-weight:500;
+}
+.contactform .inputbox{
+position:relative;
+width:100%;
+margin-top:10px;
+}
+.contactform .inputbox input{
+position:relative;
+width:100%;
+margin-top:10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+width:100%;
+padding:5px 0;
+font-size:16px;
+margin:10px 0;
+border:none;
+border-bottom:2px solid;
+outline:none;
+resize:none;
+
+}
+</style>
+</head>
+<body>
+      <section class="contact">
+               <div class="content">
+			        <h2>Contact US</h2>
+					<p>We'd love to hear from you.</p>
+               </div>
+			   <div class="container">
+			   <div class="contact-info">
+			   
+			                             <div class="box">
+										 <div class="icons" <i class="fa fa-map-marker" aria-hidden="true"></i>></div>
+										 <div class="texts">
+										 <h3 >Address</h3>
+							             <p>22 Elsynge Street<br>London SW18 2HR</p>
+										 </div>
+										 </div>
+										 <div class="box">
+										 <div class="icons" <i class="fa fa-phone" aria-hidden="true"></i>></div>
+										 <div class="texts">
+										 <h3>Phone No</h3>
+										 <pre>020 1234 5678</pre>
+										 </div>
+										 </div>
+										 <div class="box">
+										 <div class="icons" <i class="fa fa-envelope" aria-hidden="true"></i>></div>
+										 <div class="texts">
+										 <h3>Email</h3>
+										 <p>cascades@gmail.com</p>
+										 </div>
+										 </div>
+										 
+			   </div>
+			   
+			   <div class="contactform">
+			   <form>
+			   <h2>Send Message</h2>
+			                             <div class="inputbox">
+										 <input type="text">
+										 <span>
+										 Full Name
+										 </span>
+                                         </div>	
+			    
+			                             <div class="inputbox">
+										 <input type="email">
+										 <span>
+										 E-mail
+										 </span>
+                                         </div>	
+
+                                         <div class="inputbox">
+										 <textarea></textarea>
+										 <span>
+										 Type Your Message...
+										 </span>
+                                         </div>	
+
+                                         <div class="inputbox">
+										 <input type="submit" name=""  onclick="alert('Your form has been submitted')">
+                                         </div>										 
+               </form>										 
+			   </div>
+			   </div>
+      </section>
+</body>

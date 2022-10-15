@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Home Page</title>
+<style>
+.header{background:lavender;}
+.body{min-height:100vh;width:100%;background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("Cascades.jpg");background-size:cover;}
+.ul{text-align:right;max-width:1350px;padding-left:25px;padding-right:25px;display:inline-block;margin-right:190px;}
+.navbar{display: flex; align-items: center; padding-right:20px; background:lavender;}
+.h2{
+	font-family: cursive;}
+nav{flex:1; text-align: right;}
+
+nav ul{display:inline-block; list-style-type: none;}
+nav ul li{display: inline-block; margin-right: 20px;}
+.container{max-width: 1350px; margin: auto; padding-left: 25px; padding-right: 25px;}
+.right{background-position:cover;}
+</style>
+</head>
+<body>
+     <div class="container">
+		<div class="navbar">
+			<div class="logo">
+			<img src="newlogo.png" height="150px" width="300px">
+			</div>
+			<nav>
+			<ul>
+			
+			     <li><a href="">HOME</a></li>
+				 <li><a href="file:///C:/5%20SEM/F&D/Electonic%20Devices/Demo_page.html">Demo</a></li>
+				 <a href="file:///C:/5%20SEM/F&D/Electonic%20Devices/About_us.html">About</a>&emsp;
+				 <a href="file:///C:/5%20SEM/F&D/Electonic%20Devices/Sign_up_page.html">Sign Up</a>&emsp;
+				 <a href="file:///C:/5%20SEM/F&D/Electonic%20Devices/Feedback_form.html">Feedback</a>&emsp;
+				 <a href="file:///C:/5%20SEM/F&D/Electonic%20Devices/contact_us.html?">Contact Us</a>&emsp;
+			</ul>
+			</nav>
+		</div>
+	</div>
+	<h2 id="demo" onclick="myFunction()" align="center">REVIEW NOW</h2>
+
+	<img src="Cascades.jpg" height="100%" width="100%" ></img>
+	
+</body>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Welcome to worlds biggest store!";
+}
+</script>
+</html>
